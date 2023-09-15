@@ -73,7 +73,7 @@ def add():
 
 def Printer(a):    
   b = '\033[4mMy Todo List\033[0m'
-  print(f'\033[35{b:^70}')
+  print(f'\033[35{b:^70}.')
   print()
   for i in a:
     print(f'\033[32m{i} ', end='\033[0m|| ')
